@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      enabled: true   
+      uri:
+        - http://localhost:9196
+      discovery:
+        enabled: true
+        serviceId: CONFIG-SERVER
+      label: master

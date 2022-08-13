@@ -1,0 +1,24 @@
+server:
+  port: 9192
+
+spring:
+  #zipkin:
+    #base-url: http://localhost:9411/
+  h2:
+    console:
+      enabled: true     
+  application:
+    name: ORDER-SERVICE
+
+logging:
+  file:
+    name: E:/SpringBootProject/logs/oms.log
+
+#eureka:
+  #client:
+    #register-with-eureka: true
+    #fetch-registry: true    
+    #service-url:
+      #defaultZone: http://localhost:8761/eureka/
+  #instance:
+    #hostname: localhost
