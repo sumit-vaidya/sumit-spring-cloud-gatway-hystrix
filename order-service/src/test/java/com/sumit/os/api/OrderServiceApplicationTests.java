@@ -40,7 +40,6 @@ public class OrderServiceApplicationTests {
 	@BeforeEach
 	public void setup() {
 		ReflectionTestUtils.setField(service, "ENDPOINT_URL", "http://PAYMENT-SERVICE/payment/doPayment");
-		//ReflectionTestUtils.setField(service, "ENDPOINT_URL", "http://localhost:9191/payment/doPayment");
 	}
 		
 	@Test
